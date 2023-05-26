@@ -1,9 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    background: black;
+}
+
+#navbar {
+    width: 15%;
+    background: orange;
+
+}
+
 #main-video {
-    width: 85%;
-    height: auto;
+    width: 60;
+    background: pink;    
+    
 }
 
 #side-videos {
-    width: 15%;
-    height: auto;
+    width: 25%;
+    background: gray;
+    
 }
