@@ -1,6 +1,8 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    
     
     
 }
@@ -27,12 +29,12 @@ header {
 
 #sign-in {
     width: 5%;
-    padding-top: 1%;
+    margin: 1%;
     text-align: center;
     border: 2px solid blue;
-    border-radius: 50%;
+    border-radius: 30px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     
 
@@ -66,7 +68,25 @@ iframe {
 #side-videos {
     width: 20%;
     background: gray;
+    padding-left: 1%;
     
 }
+
+.img {
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+}
+
+
+.videos {
+    display: flex;
+    margin-top: 5px;
+    font-size: 10px;
+    
+    
+}
+
+
 
 
