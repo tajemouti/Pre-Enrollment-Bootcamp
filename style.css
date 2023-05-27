@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
 }
 
 a {
@@ -55,6 +54,10 @@ main {
     text-align: center; 
 }
 
+#video {
+    background: black;
+}
+
 iframe {
     max-width: 100%;
 }
@@ -62,20 +65,30 @@ iframe {
 #img {
     float: left;
     border-radius: 50%;
-    width: 50px;
 }
 
+
 #subscribe-bar {
+    padding-top: 10px;
     text-align: left;
 }
 
 #subscribe {
-    background: silver;
+    padding: 5px;
     width: 30%;
-    padding: 10px;
+    background: silver;
     border-radius: 15px;
     font-size: 15px;
     font-weight: 700;
+}
+
+#description-box {
+    margin-top: 15px;
+    border: 1px solid gray;
+    font-size: 13px;
+    border-radius: 3px;
+    text-align: left;
+    padding: 2%;
 }
 
 #side-videos {
