@@ -1,7 +1,41 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    
+    
+}
+
+header {
+    display: flex;
+
+}
+
+#yt-link {
+    width: 15%;
+}
+
+#yt-img {
+    width: 70%;
+    height: auto;
+}
+
+#search-bar {
+    width: 80%;
+    padding-top: 1%;
+
+}
+
+#sign-in {
+    width: 5%;
+    padding-top: 1%;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    
+
 }
 
 main {
@@ -9,20 +43,30 @@ main {
     background: black;
 }
 
+
 #navbar {
     width: 15%;
     background: orange;
+    
 
 }
 
 #main-video {
-    width: 60;
-    background: pink;    
+    width: 65%;
+    background: pink;
+    text-align: center; 
+    
     
 }
 
+iframe {
+    max-width: 100%;
+}
+
 #side-videos {
-    width: 25%;
+    width: 20%;
     background: gray;
     
 }
+
+
