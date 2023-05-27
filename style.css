@@ -3,8 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
     
-    
-    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
 
 header {
@@ -24,7 +28,6 @@ header {
 #search-bar {
     width: 80%;
     padding-top: 1%;
-
 }
 
 #sign-in {
@@ -36,40 +39,48 @@ header {
     text-decoration: none;
     font-size: 15px;
     font-weight: 700;
-    
-
 }
 
 main {
     display: flex;
-    background: black;
 }
 
 
 #navbar {
     width: 15%;
-    background: orange;
-    
-
 }
 
 #main-video {
     width: 65%;
-    background: pink;
     text-align: center; 
-    
-    
 }
 
 iframe {
     max-width: 100%;
 }
 
+#img {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+}
+
+#subscribe-bar {
+    text-align: left;
+}
+
+#subscribe {
+    background: silver;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
 #side-videos {
     width: 20%;
-    background: gray;
     padding-left: 1%;
-    
 }
 
 .img {
@@ -82,11 +93,17 @@ iframe {
 .videos {
     display: flex;
     margin-top: 5px;
-    font-size: 10px;
-    
-    
+    font-size: 11px;
 }
 
+.channel {
+    color: gray;
+    font-size: 9px;
+}
 
+.list {
+    margin-top: 10%;
+    padding-left: 10%;
+}
 
 
